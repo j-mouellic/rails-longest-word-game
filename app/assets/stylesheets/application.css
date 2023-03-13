@@ -13,3 +13,87 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+ body{
+  font-family: Mulish;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+ }
+
+ .wrapper {
+  width: 600px;
+  padding: 16px ;
+  background-color: rgb(1, 146, 172);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ }
+
+ h1{
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 24px;
+ }
+
+ a{
+  text-decoration: none;
+  margin-top: 24px;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(1, 146, 172);
+  transition: ease 0.3s;
+ }
+
+ /* ---------------------- Letter div design ------------------- */
+
+ .letter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+ }
+
+.letter-box{
+  padding: 12px 12px;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 16px;
+  color: rgb(3, 131, 190);
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: ease 0.3s;
+}
+
+/* ---------------------- form design ------------------- */
+
+#form .text,
+#form .button{
+
+  border-radius: 8px;
+  border: none;
+  padding: 12px;
+}
+
+#form .text{
+  width: 200px;
+}
+
+/* ---------------------- hover effect ------------------- */
+#form .button:hover,
+a:hover{
+  color: rgb(231, 234, 238);
+  background-color: rgb(40, 68, 92);
+  transition: ease 0.3s;
+}

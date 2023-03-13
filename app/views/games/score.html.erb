@@ -1,0 +1,11 @@
+<h1>Result</h1>
+
+<% if @answer == true %>
+<%= "Congratulations ! #{@word} is a english word" %>
+<% elsif @answer != true %>
+<%= "Sorry but #{@word} does not seem to be a valid english word" %>
+<% else %>
+<%= "Sorry but TEST can't be built out of grid" %>
+<% end %>
+
+<%= link_to "Play again", "/new" %>
